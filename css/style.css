@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  padding-left: 24px;
+}
+
+.icon img {
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+}
+
+h1 {
+  color:darkgreen;
+  font-size: 24px;
+}
+
+.name {
+  color:darkgreen;
+  font-size: 16px;
+}
+
+.item {
+  border-width: 1px;
+  border-color: brown;
+  border-style: solid;
+  border-radius: 8px;
+}
