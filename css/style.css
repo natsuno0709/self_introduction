@@ -1,3 +1,24 @@
+header{
+  text-align: left;
+  padding: 10px;
+  background-image: url(../素材/トップ画像.jpg);
+  height: 720px;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 50px;
+}
+
+header li{
+  display: inline-block;
+  padding: 20px 20px 5px;
+  font-size: 20px;
+}
+
+header li> a{
+  text-decoration: none;
+  color:floralwhite;
+}
+
 body {
   text-align: center;
 }
@@ -5,6 +26,7 @@ body {
 .header {
   width: 100%;
   padding-left: 24px;
+  padding-right: 24px;
 }
 
 .icon img {
@@ -28,4 +50,5 @@ h1 {
   border-color: brown;
   border-style: solid;
   border-radius: 8px;
+  padding-bottom: 8px;
 }
