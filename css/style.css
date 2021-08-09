@@ -1,54 +1,90 @@
+body {
+  margin: 0 auto;
+  max-width: 980px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  color:chocolate;
+  font-size: 48px;
+  text-align: center;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  font-weight: 600;
+  border-top:5px solid ;
+  padding-top: 32px;
+  margin-top: 0px;
+}
+
 header{
-  text-align: left;
+  text-align: right;
   padding: 10px;
   background-image: url(../素材/トップ画像.jpg);
-  height: 720px;
+  height: 550px;
   background-size: cover;
   background-position: 50% 50%;
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 
 header li{
-  display: inline-block;
+  /* display: inline-block; */
   padding: 20px 20px 5px;
-  font-size: 20px;
+  font-size: 32px;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  font-weight: 400;
 }
 
 header li> a{
   text-decoration: none;
-  color:floralwhite;
+  color:bisque;
 }
 
-body {
-  text-align: center;
+#top {
+  text-align: center
 }
 
-.header {
-  width: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
+.content {
+  margin: 0 auto;
+  max-width: 980px;
 }
 
-.icon img {
-  border-radius: 50%;
-  width: 135px;
-  height: 135px;
+/* .item {
+  display: inline-block;
+} */
+
+#section1 div {
+  display: inline-block;
 }
 
-h1 {
-  color:darkgreen;
-  font-size: 24px;
+#icon img {
+  width: 300px;
+  height: 300px;
+  /* padding-top: 8px;
+  padding-bottom: 8px; */
 }
 
-.name {
-  color:darkgreen;
-  font-size: 16px;
+h2 {
+  font-size: 42px;
+  color:chocolate;
+  border-bottom:5px solid chocolate;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  font-weight: 700;
 }
 
-.item {
+/* .item {
   border-width: 1px;
   border-color: brown;
   border-style: solid;
   border-radius: 8px;
   padding-bottom: 8px;
+} */
+
+#tokakulive {
+  width: 40%;
+  height: 40%;
 }
+
+.picture {
+  display: inline-block;
+}
+
+
