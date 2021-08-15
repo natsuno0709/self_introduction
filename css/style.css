@@ -5,12 +5,15 @@ body {
 }
 
 menu{
+  position: fixed;
+  width: 980px;
+  top: 0;
+  padding-left: 0px;
+  height: 70px;
   text-align: right;
-  padding: 10px;
-  height: 100px;
   background-size: cover;
-  background-position: 50% 50%;
-  margin-bottom: 32px;
+  background-color: mistyrose;
+  z-index:10000;
 }
 
 h1 {
@@ -21,7 +24,7 @@ h1 {
   background-color: mistyrose;
   padding-top: 150px;
   padding-bottom: 150px;
-  margin-top: 120px;
+  margin-top: 300px;
   margin-bottom: 100px;
 }
 
@@ -39,59 +42,189 @@ menu li> a{
 
 #top {
   text-align: center;
-  margin-bottom: 100px;
 }
 
-.content {
-  margin: 0 auto;
-  max-width: 980px;
+
+.item {
+  padding-bottom: 80px;
 }
 
-.sentence {
-
-}
-
-/* .item {
-  display: inline-block;
-} */
-
-#section1 div {
-  display: inline-block;
-}
-
-#section3 div {
-  display: inline-block;
-}
-
-#icon img {
-  width: 300px;
-  height: 300px;
-  /* padding-top: 8px;
-  padding-bottom: 8px; */
-}
-
+/* プロフィール */
 h2 {
   font-size: 32px;
   color:lightsalmon;
   border-bottom:5px solid lightsalmon;
   font-weight: 700;
+  padding-top: 90px;
+  margin-bottom: 60px;
 }
 
-/* .item {
-  border-width: 1px;
-  border-color: brown;
-  border-style: solid;
-  border-radius: 8px;
-  padding-bottom: 8px;
-} */
+#icon img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+#section1 {
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+/* 研究 */
+#cg {
+  text-align: center;
+}
+
+#cg1{
+  width: 45%;
+  height: 45%;
+}
+
+#cg2 {
+  width: 45%;
+  height: 45%;  
+}
+
+#model {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#model img {
+  width: 600px;
+}
+
+#model1 {
+  /* 左上のみ角丸 */
+  border-top-left-radius: 10%;
+  -webkit-border-top-left-radius: 10%;
+  -moz-border-radius-topleft: 10%;
+
+  /* 右上のみ角丸 */
+  border-top-right-radius: 10%;
+  -webkit-border-top-right-radius: 10%;
+  -moz-border-radius-topright: 10%;
+}
+
+#model4 {
+  /* 左下のみ角丸 */
+  border-bottom-left-radius: 10%;
+  -webkit-border-bottom-left-radius: 10%;
+  -moz-border-radius-bottomleft: 10%;
+
+  /* 右下のみ角丸 */
+  border-bottom-right-radius: 10%;
+  -webkit-border-bottom-right-radius: 10%;
+  -moz-border-radius-bottomright: 10%;
+}
+
+
+/* 趣味 */
+h4 {
+  margin-top: 10px;
+}
+
+.section3 {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+#curry {
+  width: 169px;
+  height: 169px;
+  /* 左上のみ角丸 */
+  border-top-left-radius: 10%;
+  -webkit-border-top-left-radius: 10%;
+  -moz-border-radius-topleft: 10%;
+}
+
+#noodle {
+  width: 169px;
+  height: 169px;
+  /* 右上のみ角丸 */
+  border-top-right-radius: 10%;
+  -webkit-border-top-right-radius: 10%;
+  -moz-border-radius-topright: 10%;
+
+}
 
 #tokakulive {
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
+  /* 左下のみ角丸 */
+  border-bottom-left-radius: 10%;
+  -webkit-border-bottom-left-radius: 10%;
+  -moz-border-radius-bottomleft: 10%;
+
+  /* 右下のみ角丸 */
+  border-bottom-right-radius: 10%;
+  -webkit-border-bottom-right-radius: 10%;
+  -moz-border-radius-bottomright: 10%;
 }
 
-.picture {
+/* 作品 */
+/* .picture {
   display: inline-block;
+} */
+
+#tokaku1 {
+  position: relative;
+  padding-top: 50px;
+  width: 330px;
 }
 
+#tokaku2 {
+  position: absolute;
+  left: 850px;
+  padding-top: 50px;
+  width: 400px;
+}
 
+#tokaku3 {
+  position: absolute;
+  left: 270px;
+  padding-top: 252px;
+  width: 330px;
+}
+
+#tokaku4 {
+  position: absolute;
+  padding-top: 50px;
+  left: 606px;
+  width: 237px;
+}
+
+#tokaku5 {
+  position: absolute;
+  left: 606px;
+  padding-top: 264px;
+  width: 237px;
+}
+
+#tokaku6 {
+  position: absolute;
+  left: 606px;
+  padding-top: 462px;
+  width: 237px;
+}
+
+#text {
+  padding-top: 450px;
+  padding-bottom: 50px;
+}
+
+#tv {
+  position: relative;
+  left: 125px;
+  width: 740px;
+}
+
+#movie {
+  position: absolute;
+  width: 420px;
+  left: 550px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}

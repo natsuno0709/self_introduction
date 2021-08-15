@@ -12,22 +12,22 @@
       <nav>
         <ul>
           <li class>
-            <a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section1');">
+            <a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('item1');">
               PROFILE
             </a>
           </li>
           <li>
-            <a id="link_section2" href="javascript:void(0);" onclick="ScrollWindow('section2');">
+            <a id="link_section2" href="javascript:void(0);" onclick="ScrollWindow('item2');">
               STUDY
             </a>
           </li>
           <li>
-            <a id="link_section3" href="javascript:void(0);" onclick="ScrollWindow('section3');">
+            <a id="link_section3" href="javascript:void(0);" onclick="ScrollWindow('item3');">
               HOBBY
             </a>
           </li>
           <li>
-            <a id="link_section4" href="javascript:void(0);" onclick="ScrollWindow('section4');">
+            <a id="link_section4" href="javascript:void(0);" onclick="ScrollWindow('item4');">
               WORKS
             </a>
           </li>
@@ -41,78 +41,100 @@
       <p>ご覧いただきありがとうございます☺</p>
     </div>
 
-    <div class="content">
-      <div class="item" id="section1">
-        <h2>PROFILE</h2>
-        <div class="sentence">
-          <p>田浦 夏乃（たうら なつの）</p>
-          <p>1998年7月9日生まれ。長崎県長崎市出身。</p>
-          <p>学生時代は建築について学び、建築構造デザインの研究に取り組む。</p>
-          <p>2021年4月、新卒で建築CADを取り扱う会社に入社。</p>
-        </div>
-        <div id="icon">
-          <img src="素材/プロフィール画像(3).jpg" alt="田浦夏乃のアイコン画像です">
+<!-- プロフィール -->
+      <div class="item">
+        <h2 id="item1">PROFILE</h2>
+        <div id="section1">
+          <div id="icon">
+            <img src="素材/プロフィール画像(3).jpg" alt="田浦夏乃のアイコン画像です">
+          </div>
+          <div>
+            <p>田浦 夏乃（たうら なつの）</p>
+            <p>1998年7月9日生まれ。長崎県長崎市出身。</p>
+            <p>学生時代は建築について学び、建築構造デザインの研究に取り組む。</p>
+            <p>2021年4月、新卒で建築CADを取り扱う会社に入社。</p>
+          </div>
         </div>
       </div>
-      
-      <div class="item" id="section2"> 
+
+<!-- 研究 -->
+      <div class="item"> 
         <h2>STUDY</h2>
+        <div>
           <p>大学のゼミで構造デザインという分野を学び、</p>
           <p>卒業研究では、竹集成材を用いた大型の本棚構造体をデザインし、構造解析も行いました。</p>
           <p>AutoCADを使って3Dモデルを作成し、構造解析ソフトを使って力学特性を調査しました。</p>
           <p>また、Photoshopを使って画像の加工を行いました。</p>
-          <img src="素材/study/本棚CG1.png" alt="" width="30%" height="30%">
-          <img src="素材/study/本棚CG2.png" alt="" width="30%" height="30%">
-          <img src="素材/study/構造体CG1.png" alt="" width="30%" height="30%">
-          <img src="素材/study/構造体CG2.png" alt="" width="30%" height="30%">
-          <img src="素材/study/構造体CG3.png" alt="" width="30%" height="30%">
-          <img src="素材/study/構造体CG4.png" alt="" width="30%" height="30%">
-      </div>
-
-      <div class="item" id="section3"> 
-
-        <h2>HOBBY</h2>
-        <div class="sentence">
-          <h4>美味しいものを食べること</h4>
-            <p>休日には友人や恋人と美味しいものを食べに出かけます。</p>
-            <p>特にスパイスカレーと豚骨ラーメンには目がありません！</p>
-  
-            <p>福岡には美味しいものが多いので、気になるお店がまだまだあります☺</p>
-  
-          <h4>音楽</h4>
-            <p>大学時代に軽音サークル入ったことをきかっけに、バンド音楽が好きになりました。</p>
-            <p>大学時代にはオリジナルバンドを組んで月に1、2回ほどライブを行っていました。</p>
-            <p>音楽を通して、世代や地域を超えて様々な人と関われることに面白みを感じます。</p>
-  
-            <p>（オリジナルバンドで行った活動についてはWORKSにまとめています！）</p>
+          <div id="cg">
+            <img src="素材/study/本棚CG1.png" alt="" id="cg1">
+            <img src="素材/study/本棚CG2.png" alt="" id="cg2">
+          </div>
+          <div id="model">
+            <img src="素材/study/構造体CG1.png" alt="" id="model1">
+            <img src="素材/study/構造体CG2.png" alt="" >
+            <img src="素材/study/構造体CG3.png" alt="">
+            <img src="素材/study/構造体CG4.png" alt="" id="model4">
+          </div>
         </div>
-        <img src="tokaku/兎角ライブ写真.jpg" alt="ライブ風景" id="tokakulive">
       </div>
 
-      <div class="item" id="section4">
+<!-- 趣味 -->
+      <div class="item"> 
+        <h2>HOBBY</h2>
+        <div class="section3">
+          <div>
+            <h4>美味しいものを食べること</h4>
+              <p>休日には友人と美味しいものを食べに出かけます。</p>
+              <p>特にスパイスカレーと豚骨ラーメンには目がありません！</p>
+              <p>福岡には美味しいものが多いので、気になるお店がまだまだあります☺</p>
+          </div>
+          <div>
+            <img src="素材/スパイスカレー.jpg" alt="カレー" id="curry">
+            <img src="素材/ラーメン.jpg" alt="二郎" id="noodle">
+          </div>
+        </div>
+        <div class="section3">
+          <div>
+            <h4>音楽</h4>
+              <p>大学時代に軽音サークル入ったことをきかっけに、バンド音楽が好きになりました。</p>
+              <p>大学時代にはオリジナルバンドを組んで月に1、2回ほどライブを行っていました。</p>
+              <p>音楽を通して、世代や地域を超えて様々な人と関われることに面白みを感じます。</p>
+              <p>（オリジナルバンドで行った活動についてはWORKSにまとめています！）</p>
+          </div>
+          <img src="tokaku/兎角ライブ写真.jpg" alt="ライブ風景" id="tokakulive">
+        </div>
+      </div>
+
+<!-- 作品 -->
+      <div class="item">
     　　　<h2>WORKS</h2>
           <div>
-            <p>音楽活動を通して、楽曲制作・イベントフライヤーの作成・CDの作成など、</p>
-            <p>”作る”ことに幅広く触れてきました。</p>
-            <p>ここでは、そのことについてお話させていただきます☺</p>
-            <p>大学時代の制作で、もっとも印象に残っているのはCDの制作です。</p>
+            <p>音楽活動を通して、楽曲制作・フライヤーの作成・CD制作など、”作る”ことに幅広く触れてきました。</p>
+            <p>その中でも、もっとも印象に残っているのはオリジナルバンドのCD制作です。</p>
             <p>レコーディングから、編曲、CDジャケット等の作成、プロモーション動画の作成まで</p>
             <p>周囲の人たちの協力も得ながらほとんど自分たちで行いました。</p>
             <p>時間と手間をかけて、音源が完成し、CDが出来上がったときは、とても感動しました！</p>
             <p>そして、何よりメンバーと意見交換しながら作っていく過程がとても楽しいと感じたのを覚えています。</p>
-          
           </div>
-          <div class="picture">
-            <img src="tokaku/うさぎイラスト(ブルーベリー).png" alt="兎角" width="30%" height="30%">
-            <img src="tokaku/オクトーバーフェスフライヤー.png" alt="兎角" width="30%" height="30%">
-            <img src="tokaku/兎角ジャケット.jpg" alt="兎角" width="30%" height="30%">
-            <img src="tokaku/兎角CD.jpg" alt="兎角" width="30%" height="30%">
-            <img src="tokaku/ガールズラック背表紙.JPG" alt="兎角" width="30%" height="30%">
-            <img src="tokaku/ガールズラック歌詞カード.JPG" alt="兎角" width="30%" height="30%">
-          </div>
-      </div>
 
-          <!-- PV動画も置く -->
-    </div>
+          <div id="picture">
+            <img src="tokaku/うさぎイラスト(ブルーベリー).png" alt="兎角" id="tokaku1">
+            <img src="tokaku/オクトーバーフェスフライヤー.png" alt="兎角" id="tokaku2">
+            <img src="tokaku/兎角ジャケット.jpg" alt="兎角" id="tokaku3">
+            <img src="tokaku/兎角CD.jpg" alt="兎角" id="tokaku4">
+            <img src="tokaku/ガールズラック背表紙.JPG" alt="兎角" id="tokaku5">
+            <img src="tokaku/ガールズラック歌詞カード.JPG" alt="兎角" id="tokaku6">
+          </div>
+
+          <div id="text">
+            <p >制作した音源は、ストリーミング配信でもリリースしました。</p>
+            <p>以下の動画は、その際にプロモーション用に作成したものです。</p>
+            <p>曲ごとにイメージしたアニメーション作りました。</p>
+          </div>
+          
+            <img src="素材/テレビ.jpg" id="tv">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tF9NVzpOKsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="movie"></iframe>
+          </div>
+
   </body>
 </html>
